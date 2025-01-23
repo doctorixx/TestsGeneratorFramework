@@ -1,6 +1,7 @@
 import os
 import sys
-from distutils.dir_util import copy_tree
+
+from core.legacy import copy_tree
 
 DESCRIPTION = \
     '''
